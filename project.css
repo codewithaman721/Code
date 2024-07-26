@@ -1,0 +1,74 @@
+.project-page{
+    background-color: rgb(227, 188, 150);
+    margin-top: 110px;
+    min-height: 140vh;
+    display: flex;
+}
+.project-page-content{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projecttext1{
+    display: flex;
+    margin-top: 140px;
+    
+    align-items: baseline;
+    justify-content: center;
+    font-family: 'poppins-semibold','Poppins' ; 
+    font-size: 35px;
+
+}
+.projecttext2{
+    
+    
+    padding: 50px;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Abel','Abel-thin';
+    font-weight: 500;
+}
+.project-card{
+    display: flex;
+    background-color: rgb(218, 178, 178);
+    height: 404px;
+    justify-content: space-between;
+    margin-top: 80px;
+    box-shadow: -5px 10px 15px  rgba(0, 0, 0, 0.18); /* Adjust values as needed */
+}
+.boxtext{
+    margin-top: 60px;
+    width: 60%;
+}
+.tittlebox{
+    display: flex;
+   
+}
+.title{
+    margin-left: 30px;
+}
+#p1{
+    font-family: 'poppins-semibold','Poppins' ; 
+    font-size: 20px;
+    color: blue;
+    font-weight: 600;
+}
+.rect{
+    display:flex ;
+    height: 50px;
+    width: 10px;
+    margin-right: 5px;
+    background-color: rgb(0,80,255);
+}
+.projecttext3{margin-top: 40px;
+    padding: 20px;
+    padding-left: 40px;
+    font-size: 17px;
+    font-family: 'Abel','Abel-thin';
+
+}
+
+.boximg img{
+    height: 100%;
+    width: 100%;
+}

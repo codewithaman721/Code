@@ -1,0 +1,130 @@
+
+.resume-page{
+    background-color: rgb(220, 170, 120);
+    margin-top: 110px;
+    min-height: 140vh;
+    display: flex;
+}
+.resume-page-content{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.resumetext1{
+    display: flex;
+    margin-top: 140px;
+    margin-bottom: 100px;
+    align-items: baseline;
+    justify-content: center;
+    font-family: 'poppins-semibold','Poppins' ; 
+    font-size: 35px;
+
+}
+.download{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 80px;
+}
+.download h2{
+    font-size: 25px;
+    text-align: left;
+}
+.download button{
+    height: 40px;
+    width: 146px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 550;
+    color: white;
+    background-color: rgb(52, 52, 80);
+    border: 2px solid rgb(61, 61, 89);
+    border-radius: 25px;
+}
+.download button:hover{
+    background-color: rgb(138, 108, 108);
+    color: black;
+}
+.resume-card{
+    display: flex;
+    background-color: rgb(142, 110, 110);
+    height: auto;
+    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    gap: 50px;
+    margin-top: 80px;
+    box-shadow: -5px 10px 15px  rgba(0, 0, 0, 0.18); /* Adjust values as needed */
+}
+.job-detail{
+    display: flex;
+    flex-direction: column;
+    width: 130%;
+    gap: 10px;
+}
+.job-time{
+    font-size: 20px;
+    font-family: 'poppins-semibold','Poppins' ; 
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+}
+.job-post{
+    font-size: 17px;
+    font-family: 'Abel-thin','Abel';
+}
+.job-name,.job-loct{
+    font-size: 14px;
+    font-family: 'Abel-thin','Abel';
+
+}
+.job-des{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.job-des p{
+    width: 100%;
+    margin-top: 40px;
+   
+    font-size: 19px;
+    font-family: 'Abel','Abel-thin';
+    font-weight: 500;
+}
+
+.resume-card-grid{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(142, 107, 107);
+    height: auto;
+    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    gap: 80px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    box-shadow: -5px 10px 15px  rgba(0, 0, 0, 0.18); /* Adjust values as needed */
+}
+.grid-container {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px; /* Gap between grid items */
+}
+
+/* CSS for the grid items */
+.grid-item {
+    display: flex;
+    align-items: baseline;
+    text-align: center; /* Center-align text */
+    font-size: 16px;
+    font-family: 'Abel-thin','Abel';
+}
+.grid-item .square{
+    height: 13px;
+    width: 13px;
+}
+.heading{
+    font-size: 25px;
+    font-family: 'poppins-semibold','Poppins' ; 
+    font-weight: 700;
+}

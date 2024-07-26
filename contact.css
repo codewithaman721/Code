@@ -1,0 +1,98 @@
+/*                 section   contact                   */
+
+
+
+  
+.contact-page {
+    display: flex;
+    height: 160vh;
+    width: 100%;
+    background-color: rgb(184, 152, 119);
+}
+.contact-page-content{
+   
+    margin-top: 250px;
+    width: 679px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.text1{
+    display: flex;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+}
+  h2{
+    font-family: 'poppins-semibold','Poppins' ; 
+    font-size: 35px;
+    text-align: center;
+    
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: -5px 15px 20px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  form{
+    margin-bottom: 120px;
+  }
+  
+  .form-group {
+    padding: 3px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px 0; /* Adjusted padding */
+    border: none;
+    border-radius: 0; /* Removed border radius */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    margin-top: 10px; /* Added margin from top */
+  }
+  input:focus,textarea:focus{
+    outline:none;
+  }
+  .form-group textarea{
+    height: 100px;
+  }
+  .group{
+    border-bottom: 0px;
+  }
+  .half {
+    display: inline-block;
+    width: calc(50% - 30px); /* Adjust width to fit half the container */
+    padding: 3px;
+    border-bottom: 1px solid black;
+
+  }
+  .half1{
+    margin-right: 44px;
+  }
+  button[type="submit"] {
+    display: block;
+    width: 115px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
